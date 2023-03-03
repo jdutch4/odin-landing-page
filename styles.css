@@ -1,42 +1,45 @@
 body{
 display: flex;
 flex-direction: column;
+border: 0px;
 
 }
 .title{
 display: flex;
 justify-content: space-between;
-padding: 10px;
+padding: 10px 30px;
 align-items: center;
 margin-bottom: 100px;
-
 }
+
+header{
+font-weight: bold;
+font-size: 70px;
+}
+
 ul{
 display: flex;
 gap: 15px;
 list-style: none;
+font-weight: bold;
 }
 .box1 {
 background-color: rgb(233, 228, 228);
-margin: 0px;
-flex:1
+
     
 }
 
 .box1middle{
 display: flex;
 justify-content: center;
-
+gap: 30px;
 }
 
 .box1middleleft{
 
 
-
 }
 .box1middleright{
-
-
 
 
 }
