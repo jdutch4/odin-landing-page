@@ -1,0 +1,19 @@
+body{
+display: flex;
+flex-direction: column;
+}
+.title{
+display: flex;
+justify-content: space-between;
+padding: 10px;
+align-items: center;
+
+}
+ul{
+display: flex;
+gap: 15px;
+list-style: none;
+
+
+
+}
