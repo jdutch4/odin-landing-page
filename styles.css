@@ -1,13 +1,14 @@
 body{
 display: flex;
 flex-direction: column;
-border: 0px;
+margin: 0px;
+justify-content: center;
 
 }
 .title{
 display: flex;
 justify-content: space-between;
-padding: 10px 30px;
+padding: 10px;
 align-items: center;
 margin-bottom: 100px;
 }
@@ -26,6 +27,7 @@ font-weight: bold;
 .box1 {
 background-color: rgb(233, 228, 228);
 
+
     
 }
 
@@ -33,11 +35,13 @@ background-color: rgb(233, 228, 228);
 display: flex;
 justify-content: center;
 gap: 30px;
+
 }
 
 .box1middleleft{
-
-
+display: flex;
+flex-direction: column;
+max-width: 540px;
 }
 .box1middleright{
 
