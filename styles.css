@@ -35,14 +35,28 @@ background-color: rgb(233, 228, 228);
 display: flex;
 justify-content: center;
 gap: 30px;
+align-items: center;
+flex: 1;
+margin-bottom: 200px;
 
 }
 
 .box1middleleft{
 display: flex;
 flex-direction: column;
-max-width: 540px;
+max-width: 600px;
+margin-top: 0px;
 }
+.box1middleleft,
+button{
+display: flex;
+justify-content: center;
+font-weight: bold;
+font-size: large;
+
+}
+
+
 .box1middleright{
 
 
