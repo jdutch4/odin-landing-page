@@ -71,16 +71,22 @@ margin-top: 50px;
 }
 .photobox {
 display: flex;
-align-items: center;
 justify-content:center;
 gap: 20px;
-margin-bottom: 50px
+margin-botto
+
 ;
 }
 .box.pbox1 img{
 object-fit:cover
 }
-
+.text{
+max-width: 320px;
+padding-top: 25px;
+}
+.box.pbox3{
+padding-top: 0px;    
+}
 
 
     
