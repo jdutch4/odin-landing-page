@@ -1,6 +1,6 @@
 body{
 display: flex;
-flex-flow:column nowrap;
+flex-flow:column wrap;
 margin: 0px;
 
 align-items: center;
@@ -103,5 +103,22 @@ align-self: center;
 display: flex;
 align-self:flex-end ;
 }
+.boxbottom {
+display: flex;
+padding: 100px;
+align-items: center;
+gap: 50px;
+background-color: #aa6f73;
+border-radius: 15px;
+margin:200px 0px;
+}
+.boxbottom button{
+padding: 10px;
 
+}
+.footer {
+display: flex;
+background-color: rgb(233, 228, 228);
+padding: 25px;
+}
     
