@@ -1,6 +1,6 @@
 body{
 display: flex;
-flex-flow:column wrap;
+flex-flow:column ;
 margin: 0px;
 
 align-items: center;
@@ -11,6 +11,7 @@ justify-content: space-between;
 padding: 10px;
 align-items: center;
 margin-bottom: 100px;
+
 }
 
 header{
@@ -26,6 +27,7 @@ font-weight: bold;
 }
 .box1 {
 background-color: rgb(233, 228, 228);
+
 
 }
 
@@ -95,8 +97,8 @@ background-color: rgb(233, 228, 228);
 display: flex;
 flex-direction: column;
 padding: 7em 13em;
-align-items:center ;
-align-self: center;
+
+
 }
 
 .quote p{
@@ -114,11 +116,13 @@ margin:200px 0px;
 }
 .boxbottom button{
 padding: 10px;
-
 }
 .footer {
 display: flex;
 background-color: rgb(233, 228, 228);
 padding: 25px;
+width: 100%;
+align-items: center;
+justify-content: center;
 }
     
